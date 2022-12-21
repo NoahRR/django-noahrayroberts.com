@@ -22,27 +22,29 @@ var typed = new Typed("#kt_typedjs_top_content", {
     backSpeed: 30
 });
 
+// TIMELINE
+// DOM element where the Timeline will be attached
+var container = document.getElementById("kt_docs_vistimeline_basic_career");
 
-// Select element
-const target = document.getElementById('kt_clipboard_3');
+// Create a DataSet (allows two way data-binding)
+var items = new vis.DataSet([
+    { id: 1, content: "Self-Taught Programming", start: "2019-11", end: "2020-08" },
+    { id: 2, content: "Nexus Organizer Development", start: "2019-12", end: "2020-07" },
+    { id: 3, content: "Full Stack Web Developer @ Blayzer", start: "2020-08", end: "2021-10" },
+    { id: 4, content: "Mod Pizza", start: "2021-11" },
 
-// Init clipboard -- for more info, please read the offical documentation: https://clipboardjs.com/
-clipboard = new ClipboardJS(target);
+    // { id: 3, content: "item 3", start: "2021-04-18" },
+    // { id: 4, content: "item 4", start: "2021-04-16", end: "2021-04-19" },
+    // { id: 5, content: "item 5", start: "2021-04-25" },
+    // { id: 6, content: "item 6", start: "2021-04-27", type: "point" },
+]);
 
-// Success action handler
-clipboard.on('success', function (e) {
-    const currentLabel = target.innerHTML;
+// Configuration for the Timeline
+var options = {
+    horizontalScroll: true,
+    zoomable: false,
+};
 
-    // Exit label update when already in progress
-    if (target.innerHTML === 'Copied!') {
-        return;
-    }
-
-    // Update button label
-    target.innerHTML = 'Copied!';
-
-    // Revert button label after 3 seconds
-    setTimeout(function () {
-        target.innerHTML = currentLabel;
-    }, 3000)
-});
+// Create a Timeline
+var timeline = new vis.Timeline(container, items, options);
+// END TIMELINE
