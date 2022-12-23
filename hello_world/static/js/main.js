@@ -28,20 +28,20 @@ var container = document.getElementById("kt_docs_vistimeline_basic_career");
 
 // Create a DataSet (allows two way data-binding)
 var items = new vis.DataSet([
-    { id: 1, content: "Self-Taught Programming", start: "2019-11", end: "2020-08" },
-    { id: 2, content: "Nexus Organizer Development", start: "2019-12", end: "2020-07" },
-    { id: 3, content: "Full Stack Web Developer @ Blayzer", start: "2020-08", end: "2021-10" },
-    { id: 4, content: "Mod Pizza", start: "2021-11" },
-
-    // { id: 3, content: "item 3", start: "2021-04-18" },
-    // { id: 4, content: "item 4", start: "2021-04-16", end: "2021-04-19" },
-    // { id: 5, content: "item 5", start: "2021-04-25" },
-    // { id: 6, content: "item 6", start: "2021-04-27", type: "point" },
+    { id: 1, content: "High School Graduation", start: "2019-05" },
+    { id: 2, content: "1 year @ Saint Louis University", start: "2019-06" },
+    { id: 3, content: "CS50x", start: "2020-01" },
+    { id: 4, content: "DoorDash Driver", start: "2020-02" },
+    { id: 5, content: "Mindstash.io launched", start: "2020-09" },
+    { id: 6, content: "Full-Stack Web Developer @ Blayzer Digital", start: "2020-11" },
+    { id: 7, content: "Squad Member @ Mod Pizza", start: "2021-11" },
+    { id: 8, content: "Shift Lead @ Mod Pizza", start: "2022-01" },
+    { id: 9, content: "(unofficial) General Manager @ Mod Pizza", start: "2022-10" },
 ]);
 
 // Configuration for the Timeline
 var options = {
-    horizontalScroll: true,
+    horizontalScroll: false,
     zoomable: false,
 };
 
