@@ -78,7 +78,11 @@ var options = {
     horizontalScroll: false,
     zoomable: false,
     selectable: true,
-    showMinorLabels: false,
+    showMinorLabels: true,
+    start: "2022-01-01",
+    end: "2023-01-01",
+    editable: true,
+    showCurrentTime: true,
 };
 
 // Create a Timeline
