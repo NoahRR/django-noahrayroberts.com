@@ -79,3 +79,9 @@
     font-weight: 500;
     background-color: transparent;
 }
+html {
+  scroll-behavior: smooth;
+}
+.no-child-link > a {
+  color: var(--kt-text-gray-700) !important;
+}

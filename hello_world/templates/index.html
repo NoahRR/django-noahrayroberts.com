@@ -83,21 +83,27 @@ Contact: noahray216@gmail.com
 								<div class="menu menu-rounded menu-active-bg menu-state-primary menu-column menu-lg-row menu-title-gray-700 menu-icon-gray-500 menu-arrow-gray-500 menu-bullet-gray-500 my-5 my-lg-0 align-items-stretch fw-semibold px-2 px-lg-0" id="kt_app_header_menu" data-kt-menu="true">
 									
 									<div class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-										<a href="/a"><button onclick="document.location.href='/';" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item_active" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
+										<button id="dashboard_btn_top" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item_active" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
 											Dashboard
-										</button></a>
+										</button>
 									</div>
 
 									<div class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-										<a href="/a"><button onclick="document.location.href='/projects';" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
-											Projects
-										</button></a>
-									</div>
-
-									<div class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-										<a href="/a"><button onclick="document.location.href='/career';" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
+										<button id="career_btn_top" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
 											Career
-										</button></a>
+										</button>
+									</div>
+
+									<div class="menu-item menu-lg-down-accordion me-0 me-lg-2">
+										<button id="projects_btn_top" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
+											Projects
+										</button>
+									</div>
+
+									<div class="menu-item menu-lg-down-accordion me-0 me-lg-2">
+										<button id="passions_btn_top" class="btn bg-gray-200 btn-icon-gray-700 btn-active-light btn-active-color-primary nav_menu_item" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-end">
+											Passions
+										</button>
 									</div>
 
 								</div>
@@ -201,6 +207,7 @@ Contact: noahray216@gmail.com
 				</div>
 				<!--end::Header-->
 				<!--begin::Wrapper-->
+				<div id="top_section_marker"></div>
 				<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 					<!--begin::Main-->
 					<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
@@ -253,6 +260,7 @@ Contact: noahray216@gmail.com
 									<!--end::Row-->
 
 									<!--begin::Row-->
+									<div id="career_section_marker" style="position: absolute; margin-top: -85px;"></div>
 									<div class="row g-5 g-xl-10 mb-5 mb-xl-10">
 										<!--begin::Col-->
 										<div class="col-xxl-6">
@@ -309,11 +317,182 @@ Contact: noahray216@gmail.com
 									</div>
 									<!--end::Row-->
 
-
-									<!--begin::FAQ card-->
+									<!-- START PROJECTS -->
+									<div id="projects_section_marker" style="position: absolute; margin-top: -85px;"></div>
 									<div class="card">
 										<!--begin::Body-->
-										<div class="card-body p-lg-15">
+										<div class="card-body p-lg-15" style="margin-bottom: -60px;">
+											<!--begin::Classic content-->
+											<div class="mb-0">
+												<!--begin::Intro-->
+												<h3 class="card-title align-items-start flex-column">
+													<span class="card-label fw-bold text-dark">Projects</span><br>
+													<span class="text-gray-400 mt-1 fw-semibold fs-6">*Only showcasing larger projects</span><br><br>
+												</h3>
+												<!--end::Intro-->
+												<!--begin::Row-->
+												<div class="row mb-12">
+													<!--begin::Col-->
+													<div class="col-md-6 pe-md-10 mb-10 mb-md-0">
+														<!--begin::Title-->
+														<!-- <h2 class="text-gray-800 fw-bold mb-4">Buying Product</h2> -->
+														<!--end::Title-->
+														<!--begin::Accordion-->
+														<!--begin::Section-->
+														<div class="m-0">
+															<!--begin::Heading-->
+															<div class="d-flex align-items-center collapsible py-3 toggle mb-0" data-bs-toggle="collapse" data-bs-target="#kt_job_4_1a">
+																<!--begin::Icon-->
+																<div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen036.svg-->
+																	<span class="svg-icon toggle-on svg-icon-primary svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
+																	<span class="svg-icon toggle-off svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="currentColor" />
+																			<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</div>
+																<!--end::Icon-->
+																<!--begin::Title-->
+																<h4 class="text-gray-700 fw-bold cursor-pointer mb-0 no-child-link">LifeStoryCast.com</h4>
+																<!--end::Title-->
+															</div>
+															<!--end::Heading-->
+															<!--begin::Body-->
+															<div id="kt_job_4_1a" class="collapse show fs-6 ms-1">
+																<!--begin::Text-->
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">Website & Podcast. An archive of people's life stories. Made up of conversations I have with everyday-folk. There is so much to learn from other people's stories.</div>
+																<!--end::Text-->
+															</div>
+															<!--end::Content-->
+															<!--begin::Separator-->
+															<div class="separator separator-dashed"></div>
+															<!--end::Separator-->
+														</div>
+														<!--end::Section-->
+														<!--begin::Section-->
+														<div class="m-0">
+															<!--begin::Heading-->
+															<div class="d-flex align-items-center collapsible py-3 toggle mb-0" data-bs-toggle="collapse" data-bs-target="#kt_job_4_2a">
+																<!--begin::Icon-->
+																<div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen036.svg-->
+																	<span class="svg-icon toggle-on svg-icon-primary svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
+																	<span class="svg-icon toggle-off svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="currentColor" />
+																			<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</div>
+																<!--end::Icon-->
+																<!--begin::Title-->
+																<h4 class="text-gray-700 fw-bold cursor-pointer mb-0 no-child-link">BeeButts.buzz</h4>
+																<!--end::Title-->
+															</div>
+															<!--end::Heading-->
+															<!--begin::Body-->
+															<div id="kt_job_4_2a" class="collapse show fs-6 ms-1">
+																<!--begin::Text-->
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">Website & Newlsetter that sends wholesome pictures of **bee butts** every monday.<br><br>"Start your week off with a smile"</div>
+																<!--end::Text-->
+															</div>
+															<!--end::Content-->
+															<!--begin::Separator-->
+															<div class="separator separator-dashed"></div>
+															<!--end::Separator-->
+														</div>
+														<!--end::Section-->
+														<!--begin::Section-->
+														<div class="m-0">
+															<!--begin::Heading-->
+															<div class="d-flex align-items-center collapsible py-3 toggle mb-0" data-bs-toggle="collapse" data-bs-target="#kt_job_4_3a">
+																<!--begin::Icon-->
+																<div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen036.svg-->
+																	<span class="svg-icon toggle-on svg-icon-primary svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																	<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
+																	<span class="svg-icon toggle-off svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
+																			<rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="currentColor" />
+																			<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</div>
+																<!--end::Icon-->
+																<!--begin::Title-->
+																<h4 class="text-gray-700 fw-bold cursor-pointer mb-0 no-child-link">Mindstash.io (NexusOrganizer)</h4>
+																<!--end::Title-->
+															</div>
+															<!--end::Heading-->
+															<!--begin::Body-->
+															<div id="kt_job_4_3a" class="collapse show fs-6 ms-1">
+																<!--begin::Text-->
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">Web Application. Idea organization database / tool. Designed as an "idea warehouse" for research and ideas.</div>
+																<!--end::Text-->
+															</div>
+															<!--end::Content-->
+															<!--begin::Separator-->
+															<div class="separator separator-dashed"></div>
+															<!--end::Separator-->
+														</div>
+														<!--end::Section-->
+														<!--begin::Section-->
+														<div class="m-0">
+															<!--begin::Heading-->
+															<div class="d-flex align-items-center collapsible py-3 toggle collapsed mb-0" data-bs-toggle="collapse" data-bs-target="#kt_job_4_4a">
+																</div>
+																<h4 class="text-gray-700 fw-bold cursor-pointer mb-0"><a href="/">See All</a></h4>
+															</div>
+															<!--end::Content-->
+														</div>
+														<!--end::Section-->
+														<!--end::Accordion-->
+													</div>
+													<!--end::Col-->
+													
+											</div>
+											<!--end::Classic content-->
+											
+										</div>
+										<!--end::Body-->
+									</div>
+									</div><br>
+									<!-- END PROJECTS -->
+
+
+									<!--begin::FAQ card-->
+									<div id="passions_section_marker" style="position: absolute; margin-top: -85px;"></div>
+									<div class="card" style="margin-top: -3px;">
+										<!--begin::Body-->
+										<div class="card-body p-lg-15" style="margin-bottom: -60px;">
 											<!--begin::Classic content-->
 											<div class="mb-13">
 												<!--begin::Intro-->
@@ -405,7 +584,7 @@ Contact: noahray216@gmail.com
 															<!--begin::Body-->
 															<div id="kt_job_4_2" class="collapse fs-6 ms-1">
 																<!--begin::Text-->
-																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">First, a disclaimer – the entire process of writing a blog post often takes more than a couple of hours, even if you can type eighty words as per minute and your writing skills are sharp.</div>
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">I have fallen in love with the sport of rock climbing. It challenges me physically and mentally. A constant upwards battle with the wall to be better and to achieve higher grades. In a lot of ways, it mimics the self-improvment journey that I, too, love.</div>
 																<!--end::Text-->
 															</div>
 															<!--end::Content-->
@@ -447,7 +626,7 @@ Contact: noahray216@gmail.com
 															<!--begin::Body-->
 															<div id="kt_job_4_3" class="collapse fs-6 ms-1">
 																<!--begin::Text-->
-																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">First, a disclaimer – the entire process of writing a blog post often takes more than a couple of hours, even if you can type eighty words as per minute and your writing skills are sharp.</div>
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">I have always had a passion for building things. I love creation. Programming is one of the most important skills I have developed to build real things in this modern world.<br><br>I love to create useful tools that make people's lives better - and ultimately happier.</div>
 																<!--end::Text-->
 															</div>
 															<!--end::Content-->
@@ -489,7 +668,7 @@ Contact: noahray216@gmail.com
 															<!--begin::Body-->
 															<div id="kt_job_4_4" class="collapse fs-6 ms-1">
 																<!--begin::Text-->
-																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">First, a disclaimer – the entire process of writing a blog post often takes more than a couple of hours, even if you can type eighty words as per minute and your writing skills are sharp.</div>
+																<div class="mb-4 text-gray-600 fw-semibold fs-6 ps-10">Music is one of my lesser-public passions. Following from my love of creation, I love making music. I have played many instruments over the years.<br><br>The one that has stuck with me the most is the guitar. I am not skilled at guitar playing. I use it as a foundation to create songs. Playing basic chords, and singing on top. This creative process brings me a lot of joy!</div>
 																<!--end::Text-->
 															</div>
 															<!--end::Content-->
