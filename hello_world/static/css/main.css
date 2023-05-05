@@ -85,3 +85,17 @@ html {
 .no-child-link > a {
   color: var(--kt-text-gray-700) !important;
 }
+.job_position {
+  /* color: var(--bs-green); */
+  font-weight: 800;
+  margin-left: 10px;
+}
+.job_pos_2 {
+  margin-left: 83px;
+}
+.job_year {
+  color: var(--bs-purple);
+  font-weight: 800;
+  margin-left: 10px;
+  opacity: .5;
+}
