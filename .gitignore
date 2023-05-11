@@ -6,3 +6,7 @@ metronic_html_v8.1.6_demo26/tools/node_modules/
 metronic_html_v8.1.6_demo26/tools/node_modules
 node_modules/
 node_modules
+hello_world/settings.py
+.htaccess
+public_static/
+tmp/
