@@ -1,0 +1,45 @@
+- CREATE A BLANK CODESPACE (do not create from repository, because it uses the wrong python version)
+- Follow the below terminal commands (install pyenv, use python version 3.9.22, copy repo with correct authentication)
+
+Terminal Steps:
+
+curl https://pyenv.run | bash
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+
+exec "$SHELL"
+
+sudo apt-get update
+sudo apt-get install -y \
+build-essential \
+libssl-dev \
+zlib1g-dev \
+libbz2-dev \
+libreadline-dev \
+libsqlite3-dev \
+wget \
+curl \
+llvm \
+libncurses5-dev \
+libncursesw5-dev \
+xz-utils \
+tk-dev \
+liblzma-dev \
+python3-openssl \
+git \
+libffi-dev \
+libgdbm-dev \
+libnss3-dev \
+libssl-dev \
+libyaml-dev
+
+pyenv install 3.9.22
+
+pyenv global 3.9.22
+
+python --version
+
+git clone https://[USERNAME]:[PERSONAL ACCESS TOKEN]@github.com/NoahRR/django-noahrayroberts.com.git
+
