@@ -47,3 +47,9 @@ git clone https://[USERNAME]:[PERSONAL ACCESS TOKEN]@github.com/NoahRR/django-no
 pip install -r requirements.txt
 
 python manage.py runserver
+
+---
+
+NOTE: hello_world/settings.py on git is setup for the live server. In development, you will need to set DEBUG to true, and add 'localhost' to allowed hosts, like so:
+DEBUG = True
+ALLOWED_HOSTS = ['noahrayroberts.com', 'localhost']
