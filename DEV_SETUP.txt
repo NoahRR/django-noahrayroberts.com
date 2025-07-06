@@ -1,5 +1,6 @@
 - CREATE A BLANK CODESPACE (do not create from repository, because it uses the wrong python version)
 - Follow the below terminal commands (install pyenv, use python version 3.9.22, copy repo with correct authentication)
+- Source: https://medium.com/@tkoike_uw/pyenv-python-version-control-on-codespaces-d5f65a495d86
 
 Terminal Steps:
 
