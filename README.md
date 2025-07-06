@@ -3,3 +3,6 @@ Personal Website, made entirely with virtual development environments, primarily
 For install, make sure to use python==3.9.22
 
 For easiest install, follow DEV_SETUP.txt
+
+Todos:
+- Check mobile responsiveness
