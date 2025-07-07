@@ -111,10 +111,24 @@ html {
 .contact_item {
   margin-left: 10px;
 }
+.social_contact_mobile{
+  display: none;
+}
 
 @media (min-width: 768px) {
   #seeall_cl {
     margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 412px) {
+  .contact_social_text{
+    display: none;
+  }
+  .social_contact_desktop{
+    display: none;
+  }
+  .social_contact_mobile{
+    display: flex !important;
   }
 }
 @media (max-width: 991px) {
