@@ -46,6 +46,8 @@ git clone https://[USERNAME]:[PERSONAL ACCESS TOKEN]@github.com/NoahRR/django-no
 
 pip install -r requirements.txt
 
+python manage.py migrate
+
 python manage.py runserver
 
 ---
