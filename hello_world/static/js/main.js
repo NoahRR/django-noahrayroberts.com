@@ -92,19 +92,19 @@ var typed = new Typed("#kt_typedjs_top_content", {
 // END TIMELINE
 
 // top nav menu smooth scrolling to sections
-document.getElementById('dashboard_btn_top').addEventListener('click', function() {
-    const targetSection = document.getElementById('top_section_marker');
-    targetSection.scrollIntoView({ behavior: 'smooth' });
-});
-document.getElementById('career_btn_top').addEventListener('click', function() {
-    const targetSection = document.getElementById('career_section_marker');
-    targetSection.scrollIntoView({ behavior: 'smooth' });
-});
-document.getElementById('projects_btn_top').addEventListener('click', function() {
-    const targetSection = document.getElementById('projects_section_marker');
-    targetSection.scrollIntoView({ behavior: 'smooth' });
-});
-document.getElementById('passions_btn_top').addEventListener('click', function() {
-    const targetSection = document.getElementById('passions_section_marker');
-    targetSection.scrollIntoView({ behavior: 'smooth' });
-});
+// document.getElementById('dashboard_btn_top').addEventListener('click', function() {
+//     const targetSection = document.getElementById('top_section_marker');
+//     targetSection.scrollIntoView({ behavior: 'smooth' });
+// });
+// document.getElementById('career_btn_top').addEventListener('click', function() {
+//     const targetSection = document.getElementById('career_section_marker');
+//     targetSection.scrollIntoView({ behavior: 'smooth' });
+// });
+// document.getElementById('projects_btn_top').addEventListener('click', function() {
+//     const targetSection = document.getElementById('projects_section_marker');
+//     targetSection.scrollIntoView({ behavior: 'smooth' });
+// });
+// document.getElementById('passions_btn_top').addEventListener('click', function() {
+//     const targetSection = document.getElementById('passions_section_marker');
+//     targetSection.scrollIntoView({ behavior: 'smooth' });
+// });

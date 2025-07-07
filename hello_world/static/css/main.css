@@ -99,11 +99,6 @@ html {
   margin-left: 10px;
   opacity: .5;
 }
-@media (min-width: 768px) {
-  #seeall_cl {
-    margin-bottom: 30px !important;
-  }
-}
 .profile_picture {
   width: 150px !important;          /* Adjust size as needed */
   height: 150px !important;         /* Should be equal to width */
@@ -115,4 +110,19 @@ html {
 }
 .contact_item {
   margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  #seeall_cl {
+    margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 991px) {
+  .topmobile_corrective {
+        margin-top: -65px !important;
+
+  }
+  .link_mobiles{
+    display: none;
+  }
 }
