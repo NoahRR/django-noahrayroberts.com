@@ -55,3 +55,7 @@ python manage.py runserver
 NOTE: hello_world/settings.py on git is setup for the live server. In development, you will need to set DEBUG to true, and add 'localhost' to allowed hosts, like so:
 DEBUG = True
 ALLOWED_HOSTS = ['noahrayroberts.com', 'localhost']
+
+---
+
+LIVE SERVER LIVE HEAD: v3noahrayroberts.com-django
