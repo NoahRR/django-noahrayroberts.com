@@ -108,3 +108,7 @@ var typed = new Typed("#kt_typedjs_top_content", {
 //     const targetSection = document.getElementById('passions_section_marker');
 //     targetSection.scrollIntoView({ behavior: 'smooth' });
 // });
+
+document.getElementById('project_picture_1').addEventListener('click', function() {
+    console.log('asdfasdfsd');
+});
