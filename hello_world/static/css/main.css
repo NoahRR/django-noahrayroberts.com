@@ -114,13 +114,17 @@ html {
 .social_contact_mobile{
   display: none;
 }
+#greatbooks{
+  color: grey;
+  text-decoration: underline;
+}
 
 @media (min-width: 768px) {
   #seeall_cl {
     margin-bottom: 30px !important;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 426px) {
   .contact_social_text{
     display: none;
   }
