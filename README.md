@@ -6,6 +6,6 @@ For easiest install, follow DEV_SETUP.txt
 
 Todos:
 - Finish cards
-- GET WEBSITES BACK UP
-- mobile firefox, extra cards format
-- HTTP redirect!!!
+- Add summary blub at top "hey i'm noah, a creative... blah blah blah"
+- Add THE ASCENT card
+- firefox formatting difference?
