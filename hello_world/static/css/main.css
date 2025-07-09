@@ -160,6 +160,9 @@ html {
 .base_manual_font_size{
   font-size: 15px;
 }
+.utah_picture {
+  height: 130px;
+}
 
 @media (min-width: 768px) {
   #seeall_cl {
