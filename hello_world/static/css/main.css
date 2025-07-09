@@ -177,6 +177,11 @@ html {
     display: flex !important;
   }
 }
+@media (max-width: 550px) {
+  #slash_store {
+    display: none;
+  }
+}
 @media (max-width: 650px) {
   .project_pictures{
     /* height: 200px;
