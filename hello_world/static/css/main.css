@@ -151,6 +151,12 @@ html {
 .link_nolink{
   color: black;
 }
+a {
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #a0d1ff !important;
+}
 .chain_link{
   transition: color 0.3s ease;
 }
